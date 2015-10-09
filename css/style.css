@@ -1,0 +1,103 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3,h4,p {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+h2 {
+  font-weight: 200;
+}
+
+/* Nav Stuff */
+.filler {
+  height: 71px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background: transparent !important;
+  font-weight: 600 !important;
+}
+.navbar-brand {
+  padding: 5px 15px 0px 15px;
+}
+#navbar-collapse {
+  border: none !important;
+}
+nav {
+  background-color: #fff !important;
+  padding-right: 5%;
+  padding-left: 5%;
+  border-bottom: transparent !important;
+}
+.navbar-brand img {
+  max-width: 200px !important
+}
+.navbutton{
+  padding: 20px !important;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff !important;
+}
+.noA {
+  text-decoration: none;
+  color: #696969;
+}
+.noA:hover {
+  text-decoration: none;
+}
+#logoImage {
+  margin-left: 50px;
+  height: calc(100%);
+}
+
+/* Home elements */
+#home {
+  background-image: url('../assets/fruits.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  height: calc(100%);
+}
+#h1name {
+  color: #fff;
+  font-weight: 200;
+  font-size: 80px;
+  position: absolute;
+  top: 82%;
+  width: calc(97%);
+  text-align: right;
+}
+
+#aboutBody {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: calc(100%);
+}
+
+#demoBody {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: calc(100%);
+  background-image: url('../assets/pan.jpg');
+}
+#processBody {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  height: calc(100%);
+}
+#teamBody {
+  background-image: url('../assets/finger.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: calc(100%);
+}

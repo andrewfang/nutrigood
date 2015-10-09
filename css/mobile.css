@@ -1,0 +1,34 @@
+.navbar-brand {
+  padding: 0;
+}
+#splashPhoto {
+  display: none;
+}
+#homeBody {
+  height: 400px;
+}
+#watches {
+  display: none;
+}
+.filler {
+  height: 51px;
+}
+#upcomingBody {
+  background: url("../assets/upcoming.png");
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+}
+#mobileWatches {
+  display: block;
+}
+.circle {
+  display: none;
+}
+#aboutPeople {
+  margin-top: 10%;
+  margin-left: 15%;
+}
+#contactInfo {
+  padding-top: 20%;
+  padding-left: 20%;
+}
