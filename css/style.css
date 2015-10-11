@@ -78,20 +78,84 @@ nav {
   height: calc(100%);
 }
 
+/* Demo */
 #demoBody {
+  background-color: #33691E;
+  height: calc(100%);
+}
+#demoContent {
+  margin-top: calc(5%);
+  height: calc(100%);
+}
+#demoContent h2 {
+  color: #fff;
+}
+#demoPhone {
+  margin-top: 20px;
+  height: calc(70%);
+}
+
+/* Process */
+#processBody {
+  height: calc(100%);
+}
+.processRow {
+  height: calc(50%);
+}
+.processCol {
+  height: calc(100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  padding: 0;
+  pointer-events: none;
+  -webkit-filter:grayscale(1);
+  filter: grayscale(1);
+}
+.processCol:hover {
+  -webkit-filter:grayscale(0) contrast(1) brightness(2);
+  filter: grayscale(0) contrast(1) brightness(2);
+}
+.processBtn {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   height: calc(100%);
+  width: calc(100%);
+  margin: 0;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  background: rgba(0, 0, 0, .3);
+  border: 0px;
+  outline: none;
+  pointer-events: auto;
+}
+#process1 {
+  background-image: url('../assets/needfinding.jpg');
+}
+#process2 {
+  background-image: url('../assets/povprototype.jpg');
+}
+#process3 {
+  background-image: url('../assets/basket.jpg');
+  filter: blur(100px);
+}
+#process4 {
+  background-image: url('../assets/beans.jpg');
+}
+#process5 {
+  background-image: url('../assets/bananas.jpg');
+}
+#process6 {
   background-image: url('../assets/pan.jpg');
 }
-#processBody {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-attachment: fixed;
-  height: calc(100%);
+#process7 {
+  background-image: url('../assets/nuts.jpg');
+}
+#process8 {
+  background-image: url('../assets/bowl.jpg');
 }
 #teamBody {
   background-image: url('../assets/finger.jpg');
