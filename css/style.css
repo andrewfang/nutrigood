@@ -75,7 +75,8 @@ nav {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  height: calc(100%);
+  height: calc(80%);
+  margin-top: calc(5%);
 }
 
 /* Demo */
@@ -84,7 +85,7 @@ nav {
   height: calc(100%);
 }
 #demoContent {
-  margin-top: calc(5%);
+  margin-top: calc(2%);
   height: calc(100%);
 }
 #demoContent h2 {
@@ -139,8 +140,7 @@ nav {
   background-image: url('../assets/povprototype.jpg');
 }
 #process3 {
-  background-image: url('../assets/basket.jpg');
-  filter: blur(100px);
+  background-image: url('../assets/videostill.jpg');
 }
 #process4 {
   background-image: url('../assets/beans.jpg');
@@ -158,10 +158,27 @@ nav {
   background-image: url('../assets/bowl.jpg');
 }
 #teamBody {
-  background-image: url('../assets/finger.jpg');
+  background-image: url('../assets/greens.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  height: calc(90%);
+}
+.teamRow {
   height: calc(100%);
 }
+.teamCol {
+  height: calc(90%);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.teamRow h3,
+.teamRow h4{
+  color: #fff;
+  font-weight: 200;
+}
+
