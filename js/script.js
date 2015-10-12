@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  $("#h1name").hide().delay(200).fadeIn().animate({
+    top: "-=30",
+    opacity: 1
+  }, 1000, function(){});
   initScrollTo();
   if (window.location.pathname != "/") {
     doScrollTo(window.location.pathname.substring(1));
