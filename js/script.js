@@ -8,12 +8,12 @@ $(document).ready(function() {
 });
 
 var floatUp = function() {
-  $("#h1name").hide().delay(200).fadeIn().animate({
+  $("#h1name").animate({
     opacity: 1
-  }, 500, function(){
-    $("#homePlayButton").hide().delay(200).fadeIn().animate({
+  }, 2000, function(){
+    $("#homePlayButton").animate({
       opacity: 1
-    }, 500, function(){ });
+    }, 1000, function(){ });
     
   });
 }
