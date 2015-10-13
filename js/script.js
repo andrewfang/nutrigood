@@ -1,14 +1,22 @@
 $(document).ready(function() {
-  $("#h1name").hide().delay(200).fadeIn().animate({
-    top: "-=30",
-    opacity: 1
-  }, 1000, function(){});
+  floatUp();
+
   initScrollTo();
   if (window.location.pathname != "/") {
     doScrollTo(window.location.pathname.substring(1));
   }
 });
 
+var floatUp = function() {
+  $("#h1name").hide().delay(200).fadeIn().animate({
+    opacity: 1
+  }, 500, function(){
+    $("#homePlayButton").hide().delay(200).fadeIn().animate({
+      opacity: 1
+    }, 500, function(){ });
+    
+  });
+}
 var initScrollTo = function() {
   var navbuttons = $(".navbutton");
   for (idx in navbuttons) {

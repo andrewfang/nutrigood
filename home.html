@@ -37,6 +37,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a class="navbutton" id="navhome" href="#home">Home</a></li>
         <li><a class="navbutton" id="navabout" href="#about">About</a></li>
+        <li><a class="navbutton" id="navmission" href="#mission">Mission</a></li>
         <li><a class="navbutton" id="navdemo" href="#demo">Demo</a></li>
         <li><a class="navbutton" id="navprocess" href="#process">Process</a></li>
         <li><a class="navbutton" id="navteam" href="#team">Team</a></li>
@@ -47,12 +48,53 @@
 
   <div class="container-fluid" id="home">
     <h1 id="h1name">Nutri-GOOD</h1>
+    <div id="btnHolder">
+      <button type="button" id="homePlayButton" data-toggle="modal" data-target="#homeVideo">
+        <i class="fa fa-play-circle-o"></i> See how it works
+      </button>
+    </div>
   </div>
+    <!-- Modal -->
+    <div class="modal fade" id="homeVideo" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div id="vimeoHeader" class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body" align="center">
+            <iframe src="https://player.vimeo.com/video/142099554?portrait=0&byline=0&title=0&badge=0&color=39B54A" width="500" height="281" frameborder="0"webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
 
   <div class="filler" id="about"></div>
   <div class="container-fluid" id="aboutBody" align="center">
     <h2>Independent Nutrition, Delivered.</h2>
-    <iframe src="https://player.vimeo.com/video/142099554" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <div class="row aboutRow">
+      <div class="col-md-4 col-xs-4 aboutItem">
+        <img class="img-responsive aboutImage" src="assets/apple.png" />
+        <h3>Choose Your Own Meals</h3>
+        <p>Use our application to choose the meals you want to eat</p>
+      </div>
+      <div class="col-md-4 col-xs-4 aboutItem">
+        <img class="img-responsive aboutImage" src="assets/pan.png" />
+        <h3>Independence</h3>
+        <p>Ingredients will be delivered to your door so you can enjoy the cooking experience.</p>
+      </div>
+      <div class="col-md-4 col-xs-4 aboutItem">
+        <img class="img-responsive aboutImage" src="assets/file.png" />
+        <h3>Know Exactly What You Ate</h3>
+        <p>Our meals are tailored specifically with your nutritional needs in mind.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="filler" id="mission"></div>
+  <div class="container-fluid" id="missionBody" align="center">
+    <h2>Mission</h2>
+    <p>Our mission is to help our customers maintain a well balanced diet without having to manually log each meal. We provide a service to the elderly that allows them to choose a set meal plan, which is guaranteed to contain all the macro and micro-nutrients that are essential to a well-balanced diet. The ingredients for these meals are delivered, allowing our customers to flex their culinary muscles.</p>
   </div>
 
   <div class="filler" id="demo"></div>
@@ -183,7 +225,7 @@
 
   </div>
   <footer>
-    <p>Created for CS147, Stanford University</p>
+    <p>Created for CS147 @ Stanford University</p>
     <p>Fall 2015</p>
   </footer>
 </body>

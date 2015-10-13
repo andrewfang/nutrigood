@@ -55,31 +55,93 @@ nav {
   background-repeat: no-repeat;
   background-position: center bottom;
   height: calc(100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 #h1name {
   color: #fff;
   font-weight: 200;
   font-size: 80px;
-  position: absolute;
-  top: 82%;
   width: calc(97%);
   text-align: right;
   opacity: 0;
 }
+#btnHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: calc(88%);
+  padding-bottom: 50px;
+}
+#homePlayButton {
+  color: #fff;
+  width: 200px;
+  font-weight: 200;
+  font-size: 18px;
+  border-radius: 15px;
+  background: #39B54A;
+  border: none;
+  padding: 12px;
+  opacity: 0;
+}
+#homePlayButton:focus {
+  outline: 0;
+}
+#vimeoHeader {
+  border-bottom: 0px;
+}
 
+/* About Elements */
 #aboutBody {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  height: calc(80%);
-  margin-top: calc(5%);
+  height: calc(90%);
+  padding-top: calc(5%);
 }
+#aboutBody h2 {
+  font-size: 52px;
+}
+.aboutRow {
+  height: calc(50%);
+  margin-top: calc(5%);
+  padding: 50px;
+}
+.aboutItem {
+  height: calc(100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.aboutImage {
+  height: 150px;
+}
+#missionBody {
+  background-image: url("../assets/nuts.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: calc(91%);
+  display: flex;
+  alight-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  padding-left: calc(65%);
+  padding-right: calc(5%);
+  -webkit-filter:contrast(1) brightness(1);
+  filter:contrast(1) brightness(1);
+}
+
 
 /* Demo */
 #demoBody {
   background-color: #4A9BA3;
-  height: calc(100%);
+  padding-top: calc(5%);
+  height: calc(95%);
 }
 #demoContent {
   margin-top: calc(2%);
@@ -111,8 +173,8 @@ nav {
   filter: grayscale(1);
 }
 .processCol:hover {
-  -webkit-filter:grayscale(0) contrast(1) brightness(2);
-  filter: grayscale(0) contrast(1) brightness(2);
+  -webkit-filter:grayscale(0) contrast(1) saturate(2);
+  filter: grayscale(0) contrast(1) saturate(2);
 }
 .processBtn {
   position: relative;
@@ -137,13 +199,13 @@ nav {
   background-image: url('../assets/povprototype.jpg');
 }
 #process3 {
-  background-image: url('../assets/videostill.jpg');
+  background-image: url('../assets/videoStill.jpg');
 }
 #process4 {
   background-image: url('../assets/beans.jpg');
 }
 #process5 {
-  background-image: url('../assets/bananas.jpg');
+  background-image: url('../assets/bananas.JPG');
 }
 #process6 {
   background-image: url('../assets/pan.jpg');
