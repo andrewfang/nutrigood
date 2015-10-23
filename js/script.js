@@ -2,8 +2,8 @@ $(document).ready(function() {
   floatUp();
 
   initScrollTo();
-  if (window.location.pathname != "/") {
-    doScrollTo(window.location.pathname.substring(1));
+  if (window.location.hash != "") {
+    doScrollTo(window.location.hash.substring(1));
   }
 });
 
@@ -31,6 +31,7 @@ var initScrollTo = function() {
 var doScrollTo = function(destination) {
   $('html, body').animate({
       scrollTop: $("#" + destination).offset().top
-  }, 1000);
-  history.replaceState(null, null, destination);
+  }, 1000, function() {
+      window.location.hash = destination;
+  });
 }
