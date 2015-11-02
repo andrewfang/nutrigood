@@ -10,10 +10,10 @@ $(document).ready(function() {
 var floatUp = function() {
   $("#h1name").animate({
     opacity: 1
-  }, 2000, function(){
+  }, 1000, function(){
     $("#homePlayButton").animate({
       opacity: 1
-    }, 1000, function(){ });
+    }, 500, function(){ });
     
   });
 }

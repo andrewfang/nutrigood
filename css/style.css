@@ -152,12 +152,12 @@ nav {
 }
 #demoPhone {
   margin-top: 20px;
-  height: calc(70%);
+  height: calc(75%);
 }
 
 /* Process */
 #processBody {
-  height: calc(100%);
+  height: calc(93%);
 }
 .processRow {
   height: calc(50%);
@@ -173,8 +173,8 @@ nav {
   filter: grayscale(1);
 }
 .processCol:hover {
-  -webkit-filter:grayscale(0) contrast(1) saturate(2);
-  filter: grayscale(0) contrast(1) saturate(2);
+  -webkit-filter:grayscale(0) contrast(1) saturate(1);
+  filter: grayscale(0) contrast(1) saturate(1);
 }
 .processBtn {
   position: relative;
@@ -205,7 +205,7 @@ nav {
   background-image: url('../assets/lowfi.jpg');
 }
 #process5 {
-  background-image: url('../assets/bananas.JPG');
+  background-image: url('../assets/medfi.png');
 }
 #process6 {
   background-image: url('../assets/pan.jpg');
@@ -265,4 +265,16 @@ footer {
 }
 footer p {
   margin: 0;
+}
+.modal-dialog {
+  background-color: rgba(0,0,0,0) !important;
+}
+.modal-content {
+  background-color: rgba(255,255,255,.9) !important;
+}
+footer a {
+  color: #fff !important;
+}
+footer a:hover {
+  color: #7df98e !important;
 }

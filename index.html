@@ -100,8 +100,9 @@
   <div class="filler" id="demo"></div>
   <div class="container-fluid" id="demoBody" align="center">
     <div id="demoContent">
-      <h2>Coming soon...</h2>
-      <img id="demoPhone" src="assets/phone.png" />
+      <h2>Interactive Prototype</h2>
+      <iframe id="demoPhone" src="https://marvelapp.com/d245f9?emb=1" width="271" height="540" allowTransparency="true" frameborder="0"></iframe>
+      <p style="color:#fff">See it fullscreen on <a style="color:#efefef" href="https://marvelapp.com/d245f9">Marvel</a></p>
     </div>
   </div>
 
@@ -126,6 +127,7 @@
     <!-- Start Row -->
     <div class="row processRow">
       <div class="col-md-3 col-xs-3 processCol" id="process5">
+        <button type="button" class="processBtn" data-toggle="modal" data-target="#medFiModal">Medium-Fi Prototyping</button>
       </div>
       <div class="col-md-3 col-xs-3 processCol" id="process6">
       </div>
@@ -216,6 +218,30 @@
       </div>
     </div>
     <!-- End Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="medFiModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title">Medium-Fi Prototyping</h4>
+          </div>
+          <div class="modal-body">
+            <div align="center">
+              <iframe src="https://marvelapp.com/d245f9?emb=1" width="271" height="540" allowTransparency="true" frameborder="0"></iframe>
+              <p>Full screen version on <a href="https://marvelapp.com/d245f9#8411042">Marvel</a></p>
+              <p>View <a href="assets/presentations/medfiREADME.txt">README</a> (<a href="assets/presentations/medfiREADME.txt" download>Download</a>)</p>
+            </div>
+            <iframe src="//www.slideshare.net/slideshow/embed_code/key/24SF1Vkc0HovAb" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+            <p>Presentation:
+              <a href="assets/presentations/5medfiPDF.pdf" download>PDF</a> /
+              <a href="assets/presentations/5medfi.key" download>Keynote</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
 
   </div>
 
@@ -247,15 +273,16 @@
         <img class="img-responsive img-circle" alt="Jorge Garcia" src="https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11888047_1164195933596404_6626672408653923547_n.jpg?oh=ac55da722fa171f870559e9e87d99879&oe=56D34F05" />
         <h3>Jorge Garcia</h3>
         <h4>Chief User Experience Officer</h4>
-        <a class="profileLinkIcon" href="https://www.facebook.com/profile.php?id=100000180247350&fref=ts"><i class="fa fa-facebook"></i></a>
+        <a class="profileLinkIcon" href="https://www.linkedin.com/pub/jorge-garcia-mesa/108/b57/9a0"><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
   </div>
 
   </div>
   <footer>
-    <p>Created for CS147 @ Stanford University</p>
-    <p>Fall 2015</p>
+        <a class="profileLinkIcon" href="mailto:nutri-good@stanford.edu"><i class="fa fa-envelope"></i></a>
+    <p><a class="noA" href="mailto:nutri-good@stanford.edu">nutri-good@stanford.edu</a></p>
+    <p>Created for CS147 @ Stanford University | Fall 2015</p>
   </footer>
 </body>
 <script src="js/script.js"></script>
