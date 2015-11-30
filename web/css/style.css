@@ -154,6 +154,9 @@ nav {
   margin-top: 20px;
   height: calc(75%);
 }
+#demoPhoneVideo {
+  height: 450px;
+}
 
 /* Process */
 #processBody {
