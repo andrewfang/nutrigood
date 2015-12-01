@@ -32,6 +32,10 @@ Profile
 * Configure user profile attributes
 * Set the max nutritional intake, which is reflected in meal selection
 * Set dietary restrictions, which filters meal selection
+Watch
+* Performs a biometric sync of the wearer
+* This information could be used to configure the nutritional intake
+  and dietary restrictions of the user.
 
 
 Limitations
@@ -42,3 +46,6 @@ backend service, and the data is largely made up. Food will
 not actually be delivered, and recommendations are purely
 randomized in nature. Configuring the profile will not change
 the recommended nutritional intake.
+Furthermore, the watch component is merely a proof of concept.
+No actual biometric information is synced, and no changes are
+made to the nutritional needs of the user.

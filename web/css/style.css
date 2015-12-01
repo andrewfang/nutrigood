@@ -157,6 +157,9 @@ nav {
 #demoPhoneVideo {
   height: 450px;
 }
+#demoWatchVideo {
+  height: 200px;
+}
 
 /* Process */
 #processBody {
