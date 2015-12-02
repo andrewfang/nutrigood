@@ -150,6 +150,13 @@ nav {
 #demoContent h2 {
   color: #fff;
 }
+#downloadNowText a{
+  color: #39B54A;
+}
+#downloadNowText a:hover {
+  text-decoration: underline;
+}
+
 #demoPhone {
   margin-top: 20px;
   height: calc(75%);
